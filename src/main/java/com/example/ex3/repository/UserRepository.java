@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 public interface UserRepository extends JpaRepository<User, Integer> {
     /**
      * 获取指定ID的用户
+     *
      * @param id
      * @return
      */

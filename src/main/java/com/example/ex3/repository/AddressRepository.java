@@ -14,6 +14,7 @@ import java.util.List;
 public interface AddressRepository extends JpaRepository<Address, Integer> {
     /**
      * 获取指定详细信息的全部地址
+     *
      * @param detail
      * @return
      */

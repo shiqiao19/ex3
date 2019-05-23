@@ -48,11 +48,13 @@ public class JPQLTest {
         UserAddress ua3 = new UserAddress(user2, a3);
         userAddressRepository.save(ua3);
     }
+
     @Test
     public void userRepTest() {
         User u = userRepository.find(1);
         log.debug(u.getName());
     }
+
     @Test
     public void addressRepTest() {
         addressRepository.list("956")
